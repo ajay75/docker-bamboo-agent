@@ -1,3 +1,5 @@
+[![](https://images.microbadger.com/badges/image/amitshlo/bamboo-agent.svg)](https://microbadger.com/images/amitshlo/bamboo-agent "Get your own image badge on microbadger.com")[![](https://images.microbadger.com/badges/version/amitshlo/bamboo-agent.svg)](https://microbadger.com/images/amitshlo/bamboo-agent "Get your own version badge on microbadger.com")
+
 # bamboo-agent
 An agent image for Atlassian Bamboo. Based on the official one, but works!
 
