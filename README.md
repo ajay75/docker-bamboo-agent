@@ -14,11 +14,12 @@ Run with the following command:
 
     docker run -e HOME=/root/ -e BAMBOO_SERVER=http://hostname:port/bamboo -i -t amitshlo/bamboo-agent:latest
 
+
 Customize it:
 
 1. Use amitshlo/bamboo-agent:base as base image.
 2. Install what you need with apt-get.
-3. Add CMD /root/run-agent.sh' at the end of your Dockerfile.
+3. Add CMD /root/run-agent.sh at the end of your Dockerfile.
 4. (Optional: Open a pull request so others could enjoy it too).
 5. Build your image!
 
