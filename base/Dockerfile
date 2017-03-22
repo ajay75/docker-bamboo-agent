@@ -15,14 +15,5 @@ RUN chmod +x /root/bamboo-update-capability.sh && \
 # Install bash
 RUN apk --no-cache add bash
 
-# Install Node
-RUN apk --no-cache add nodejs
-
-# Do npm stuff
-RUN npm config set prefix /usr/local && \
-    npm install -g npm && \
-    npm install -g gulp && \
-    npm install -g typescript
-
 # Run Bamboo Agent setup script
 CMD /root/run-agent.sh
