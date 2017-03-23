@@ -1,7 +1,7 @@
 [![](https://images.microbadger.com/badges/image/amitshlo/bamboo-agent.svg)](https://microbadger.com/images/amitshlo/bamboo-agent "Get your own image badge on microbadger.com")[![](https://images.microbadger.com/badges/version/amitshlo/bamboo-agent.svg)](https://microbadger.com/images/amitshlo/bamboo-agent "Get your own version badge on microbadger.com")
 
 # bamboo-agent
-An agent image for Atlassian Bamboo, built on Linux Alpine.
+An agent image for Atlassian Bamboo, built on Linux Alpine (only 126 MB!).
 
 The image is build the same way as the offical one, but is based on Alpine and has Java 8 (or in other words - it works).
 
