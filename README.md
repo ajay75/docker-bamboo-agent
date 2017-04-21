@@ -3,6 +3,8 @@
 # bamboo-agent
 An agent image for Atlassian Bamboo, built on Linux Alpine (only 126 MB!) or Linux Debian.
 
+Plus Node.js Bamboo Agent capable of running tests on Chromium!
+
 The image is build the same way as the offical one, but is based on Alpine or Debian and has Java 8 (or in other words - it works).
 
 
