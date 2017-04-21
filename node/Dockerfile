@@ -16,7 +16,7 @@ RUN chmod +x /root/bamboo-update-capability.sh && \
 RUN apk --no-cache add bash
 
 # Install Node
-RUN apk --no-cache add nodejsfasgasgsdfas
+RUN apk --no-cache add nodejs
 
 # Do npm stuff
 RUN npm config set prefix /usr/local && \
