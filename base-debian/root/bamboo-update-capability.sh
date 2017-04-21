@@ -1,17 +1,17 @@
 #!/bin/sh
-displayUsage() {
+displayUsage() { 
 	echo "\nScript to upgrade bamboo agent capabilities directly in properties file"
 	echo "Will remove from file old property with given name and write a new one"
 	echo "\nUsage: $(basename "$0") capability value [file.properties]"
-	echo "\n  capability - capabaliyty name"
-	echo "  value - value of capability"
-	echo "  file.properties - optional path to properties file (default: ~/bamboo-agent-home/bamboo-capabilities.properties)\n"
-}
+	echo "\n  capability - capabaliyty name" 
+	echo "  value - value of capability" 
+	echo "  file.properties - optional path to properties file (default: ~/bamboo-agent-home/bamboo-capabilities.properties)\n" 
+} 
 
-if [  $# -le 1 ]; then
+if [  $# -le 1 ]; then 
 	displayUsage
 	exit 1
-fi
+fi 
 
 if [ -z "$3" ]; then
 	propertiesFilePath=~/bamboo-agent-home/bin/bamboo-capabilities.properties
