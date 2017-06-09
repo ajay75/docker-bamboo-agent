@@ -13,7 +13,7 @@ Tags:
 1. latest, base - Alpine based base image with nothing installed but Oracle Java 8.
 2. base-debian - Same as base, only based on Linux Debian (if you need stuff that don't work on Alpine)
 3. node - Image with Node.js (TypeScript and Gulp pre-installed) Installed.
-4. debian-node - Image with Node.js (TypeScript and Gulp pre-installed), Yarn, Git, Zip, Unzip and Chromium (for running tests with karma etc.) Installed.
+4. node-debian - Image with Node.js (TypeScript and Gulp pre-installed), Yarn, Git, Zip, Unzip and Chromium (for running tests with karma etc.) Installed.
 
 Run with the following command:
 
