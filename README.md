@@ -1,6 +1,6 @@
 [![](https://images.microbadger.com/badges/image/amitshlo/bamboo-agent.svg)](https://microbadger.com/images/amitshlo/bamboo-agent "Get your own image badge on microbadger.com")[![](https://images.microbadger.com/badges/version/amitshlo/bamboo-agent.svg)](https://microbadger.com/images/amitshlo/bamboo-agent "Get your own version badge on microbadger.com")
 
-# Bamboo Agent - Node.JS, Java or Bare!
+# Bamboo Agent - Node.JS or Bare!
 An agent image for Atlassian Bamboo, built on Linux Alpine (only 126 MB!) or Linux Debian.
 
 Plus Node.js Bamboo Agent capable of running tests on Chromium!
@@ -13,7 +13,7 @@ Tags:
 1. latest, base - Alpine based base image with nothing installed but Oracle Java 8.
 2. base-debian - Same as base, only based on Linux Debian (if you need stuff that don't work on Alpine)
 3. node - Image with Node.js (TypeScript and Gulp pre-installed) Installed.
-4. node-debian - Image with Node.js (TypeScript and Gulp pre-installed), Yarn, Git, Zip, Unzip and Chromium (for running tests with karma etc.) Installed.
+4. node-debian - Image with Node.js (TypeScript and Gulp pre-installed), Yarn, Git, Zip, Unzip and Chromium (with Xvfb set for running tests with karma etc.) Installed.
 
 Run with the following command:
 
