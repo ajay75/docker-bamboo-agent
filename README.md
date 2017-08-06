@@ -1,9 +1,9 @@
 [![](https://images.microbadger.com/badges/image/amitshlo/bamboo-agent.svg)](https://microbadger.com/images/amitshlo/bamboo-agent "Get your own image badge on microbadger.com")[![](https://images.microbadger.com/badges/version/amitshlo/bamboo-agent.svg)](https://microbadger.com/images/amitshlo/bamboo-agent "Get your own version badge on microbadger.com")
 
-# Bamboo Agent - Node.JS or Bare!
+# Bamboo Agent (Docker) -  Includes Node.JS, Java and Docker!
 An agent image for Atlassian Bamboo, built on Linux Alpine (only 126 MB!) or Linux Debian.
 
-Plus Node.js and Java Bamboo Agent capable of running tests on Chromium (and a lot of other stuff)!
+Plus Node.js and Java Bamboo Agent capable of running tests on Chromium (and a lot of other stuff such as Docker)!
 
 The image is build the same way as the offical one, but is based on Alpine or Debian and has Java 8 (or in other words - it works).
 
