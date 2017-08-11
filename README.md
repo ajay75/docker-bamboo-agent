@@ -10,9 +10,9 @@ The image is build the same way as the offical one, but is based on Alpine or De
 
 Tags:
 
-1. node-java, latest - Image with Java and Node.js (TypeScript, Mocha, Forever and Gulp pre-installed), Maven, Yarn, Git, Zip, Unzip and Chromium (for running tests with karma etc.) Installed.
-2. base - Alpine based base image with nothing installed but Oracle Java 8.
-3. base-debian - Same as base, only based on Linux Debian (if you need stuff that don't work on Alpine)
+1. [node-java, latest - Image with Java and Node.js (TypeScript, Mocha, Forever and Gulp pre-installed), Maven, Yarn, Git, Zip, Unzip and Chromium (for running tests with karma etc.) Installed.](node-java/Dockerfile)
+2. [base - Alpine based base image with nothing installed but Oracle Java 8.](base/Dockerfile)
+3. [base-debian - Same as base, only based on Linux Debian (if you need stuff that don't work on Alpine).](base-debian/Dockerfile)
 
 Run with the following command:
 
@@ -28,4 +28,3 @@ Customize it:
 4. Build your image!
 
 Enjoy!
-
