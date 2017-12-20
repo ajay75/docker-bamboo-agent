@@ -20,6 +20,10 @@ Run with the following command:
 
 It's recommended to mount the build folder (/root/bamboo-agent-home/xml-data/build-dir) so the container won't grow.
 
+You should also mount the cache folders (Yarn, npm etc.) for the same reason.
+
+If you plan on using Docker - Bind the docker socket from the container (-v /var/run/docker.sock:/var/run/docker.sock)! For more info - [here](http://jpetazzo.github.io/2015/09/03/do-not-use-docker-in-docker-for-ci/).
+
 Customize it:
 
 1. Use amitshlo/bamboo-agent:base as base image.
